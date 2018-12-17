@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+</head>
+<body>
+    <table width="500" height="80" align="center">
+　    <tr><td align="center">
+
+        <form action="/search" method="get">
+            <p>請選擇你的性別:</p>
+            <select name="sex" id="sex">
+                <option value="1">男性</option>
+                <option value="2">女性</option>
+            </select>
+            <br><br>
+            <p>請問你今年幾歲:</p>
+            <select name="age" id="age">
+                <option value="1">19歲以下</option>
+                <option value="2">20~29歲</option>
+                <option value="3">30~39歲</option>
+                <option value="4">40~49歲</option>
+                <option value="5">50~59歲</option>
+                <option value="6">60歲以上</option>
+            </select>
+            <br><br>
+            <p>請問你的職業:</p>
+            <select name="job" id="job">
+                <option value="1">經營/行政/總務</option>
+                <option value="2">財務/金融/保險</option>
+                <option value="3">客服/門市</option>
+                <option value="4">資訊/軟體/系統</option>
+                <option value="5">技術/維修/操作</option>
+                <option value="6">傳播/娛樂/藝術</option>
+                <option value="7">物流/運輸/資材</option>
+                <option value="8">醫療/美容/保健</option>
+                <option value="9">清潔/家事/保姆</option>
+                <option value="10">業務/貿易/銷售</option>
+                <option value="11">廣告/公關/設計</option>
+                <option value="12">工程/研發/生技</option>
+                <option value="13">品管/製造/環衛</option>
+                <option value="14">營建/製圖/施作</option>
+                <option value="15">教育/學術/研究</option>
+                <option value="16">旅遊/餐飲/休閒</option>
+                <option value="17">保全/消防/警衛</option>
+                <option value="18">農林漁牧相關</option>
+                <option value="19">學生</option>
+            </select>
+            <br><br>
+            <p>請問你的個人平均月收入:</p>
+            <select name="earn" id="earn">
+                <option value="1">2萬元以下</option>
+                <option value="2">2萬~3萬元以下</option>
+                <option value="3">3萬~4萬以下</option>
+                <option value="4">4萬~5萬以下</option>
+                <option value="5">5萬~6萬元以下</option>
+                <option value="6">6萬元以上</option>
+            </select>
+            <br><br>
+            <p>平時對出國旅行的喜好程度？</p>
+            <select name="hobbit" id="hobbit">
+                <option value="1">非常喜歡</option>
+                <option value="2">喜歡</option>
+                <option value="3">普通</option>
+                <option value="4">不喜歡</option>
+                <option value="5">非常不喜歡</option>
+            </select>
+            <br><br>
+            <h4>以下請選擇對單一產品的喜好程度</h4>
+            <p><h3>Ａ１套裝旅遊產品</h3><br><br>
+                旅遊地點天數：歐洲英國6~10天<br><br>
+                旅館星級：3星<br><br>
+                航班飛行形式：直飛<br><br>
+                景點規劃：主打以景觀參觀+購物行程為主<br><br>
+                餐飲類型：會品嘗到中式料理＋西式料理<br> 　</p>
+            <input type="radio" name="A1" value="1" checked> 1&nbsp&nbsp
+            <input type="radio" name="A1" value="2"> 2&nbsp&nbsp
+            <input type="radio" name="A1" value="3"> 3&nbsp&nbsp
+            <input type="radio" name="A1" value="4"> 4&nbsp&nbsp
+            <input type="radio" name="A1" value="5"> 5&nbsp&nbsp
+            <input type="radio" name="A1" value="6"> 6&nbsp&nbsp
+            <input type="radio" name="A1" value="7"> 7&nbsp&nbsp
+            <input type="radio" name="A1" value="8"> 8&nbsp&nbsp
+            <input type="radio" name="A1" value="9"> 9&nbsp&nbsp
+            <input type="radio" name="A1" value="10"> 10&nbsp&nbsp
+            <br><br>
+            <p><h3>Ａ2套裝旅遊產品</h3><br><br>
+                旅遊地點天數：歐洲英國6~10天<br><br>
+                旅館星級：4星<br><br>
+                航班飛行形式：轉機<br><br>
+                景點規劃：主打以景點參觀+遊樂園行程為主<br><br>
+                餐飲類型：會品嘗到中式料理＋特色小吃　</p>
+            <input type="radio" name="A1" value="1" checked> 1&nbsp&nbsp
+            <input type="radio" name="A1" value="2"> 2&nbsp&nbsp
+            <input type="radio" name="A1" value="3"> 3&nbsp&nbsp
+            <input type="radio" name="A1" value="4"> 4&nbsp&nbsp
+            <input type="radio" name="A1" value="5"> 5&nbsp&nbsp
+            <input type="radio" name="A1" value="6"> 6&nbsp&nbsp
+            <input type="radio" name="A1" value="7"> 7&nbsp&nbsp
+            <input type="radio" name="A1" value="8"> 8&nbsp&nbsp
+            <input type="radio" name="A1" value="9"> 9&nbsp&nbsp
+            <input type="radio" name="A1" value="10"> 10&nbsp&nbsp
+            <br><br>
+            <p><h3>Ａ３套裝旅遊產品</h3><br><br>
+                旅遊地點天數：歐洲英國6~10天<br><br>
+                旅館星級：5星<br><br>
+                航班飛行形式：直飛<br><br>
+                景點規劃：主打以遊樂園+購物活動行程為主<br><br>
+                餐飲類型：會品嘗到西式料理＋特色小吃</p>
+            <input type="radio" name="A1" value="1" checked> 1&nbsp&nbsp
+            <input type="radio" name="A1" value="2"> 2&nbsp&nbsp
+            <input type="radio" name="A1" value="3"> 3&nbsp&nbsp
+            <input type="radio" name="A1" value="4"> 4&nbsp&nbsp
+            <input type="radio" name="A1" value="5"> 5&nbsp&nbsp
+            <input type="radio" name="A1" value="6"> 6&nbsp&nbsp
+            <input type="radio" name="A1" value="7"> 7&nbsp&nbsp
+            <input type="radio" name="A1" value="8"> 8&nbsp&nbsp
+            <input type="radio" name="A1" value="9"> 9&nbsp&nbsp
+            <input type="radio" name="A1" value="10"> 10&nbsp&nbsp
+            <br><br>
+            <p><h3>Ａ４套裝旅遊產品</h3><br><br>
+                旅遊地點天數：歐洲英國6~10天<br><br>
+                旅館星級：3星<br><br>
+                航班飛行形式：轉機<br><br>
+                景點規劃：主打以景點參觀+購物行程為主<br><br>
+                餐飲類型：會品嘗到中式料理＋西式料理為主</p>
+            <input type="radio" name="A1" value="1" checked> 1&nbsp&nbsp
+            <input type="radio" name="A1" value="2"> 2&nbsp&nbsp
+            <input type="radio" name="A1" value="3"> 3&nbsp&nbsp
+            <input type="radio" name="A1" value="4"> 4&nbsp&nbsp
+            <input type="radio" name="A1" value="5"> 5&nbsp&nbsp
+            <input type="radio" name="A1" value="6"> 6&nbsp&nbsp
+            <input type="radio" name="A1" value="7"> 7&nbsp&nbsp
+            <input type="radio" name="A1" value="8"> 8&nbsp&nbsp
+            <input type="radio" name="A1" value="9"> 9&nbsp&nbsp
+            <input type="radio" name="A1" value="10"> 10&nbsp&nbsp
+            <br><br>
+            <p><h3>Ａ５套裝旅遊產品</h3><br><br>
+                旅遊地點天數：歐洲英國10~15天<br><br>
+                旅館星級：3星<br><br>
+                航班飛行形式：轉機<br><br>
+                景點規劃：主打以遊樂園+購物行程為主<br><br>
+                餐飲類型：會品嘗到中式料理＋西式料理為主</p>
+            <input type="radio" name="A1" value="1" checked> 1&nbsp&nbsp
+            <input type="radio" name="A1" value="2"> 2&nbsp&nbsp
+            <input type="radio" name="A1" value="3"> 3&nbsp&nbsp
+            <input type="radio" name="A1" value="4"> 4&nbsp&nbsp
+            <input type="radio" name="A1" value="5"> 5&nbsp&nbsp
+            <input type="radio" name="A1" value="6"> 6&nbsp&nbsp
+            <input type="radio" name="A1" value="7"> 7&nbsp&nbsp
+            <input type="radio" name="A1" value="8"> 8&nbsp&nbsp
+            <input type="radio" name="A1" value="9"> 9&nbsp&nbsp
+            <input type="radio" name="A1" value="10"> 10&nbsp&nbsp
+            <br><br>
+            <p><h3>Ａ６套裝旅遊產品</h3><br><br>
+                旅遊地點天數：歐洲英國10~15天<br><br>
+                旅館星級：4星<br><br>
+                航班飛行形式：直飛<br><br>
+                景點規劃：主打以景點參觀+購物行程為主<br><br>
+                餐飲類型：會品嘗到西式料理＋特色小吃為主</p>
+            <input type="radio" name="A1" value="1" checked> 1&nbsp&nbsp
+            <input type="radio" name="A1" value="2"> 2&nbsp&nbsp
+            <input type="radio" name="A1" value="3"> 3&nbsp&nbsp
+            <input type="radio" name="A1" value="4"> 4&nbsp&nbsp
+            <input type="radio" name="A1" value="5"> 5&nbsp&nbsp
+            <input type="radio" name="A1" value="6"> 6&nbsp&nbsp
+            <input type="radio" name="A1" value="7"> 7&nbsp&nbsp
+            <input type="radio" name="A1" value="8"> 8&nbsp&nbsp
+            <input type="radio" name="A1" value="9"> 9&nbsp&nbsp
+            <input type="radio" name="A1" value="10"> 10&nbsp&nbsp
+            <br><br>
+            <p><h3>Ａ７套裝旅遊產品</h3><br><br>
+                旅遊地點天數：歐洲英國10~15天<br><br>
+                旅館星級：5星<br><br>
+                航班飛行形式：轉機<br><br>
+                景點規劃：主打以景點參觀+購物行程為主<br><br>
+                餐飲類型：會品嘗到中式料理＋特色小吃為主</p>
+            <input type="radio" name="A1" value="1" checked> 1&nbsp&nbsp
+            <input type="radio" name="A1" value="2"> 2&nbsp&nbsp
+            <input type="radio" name="A1" value="3"> 3&nbsp&nbsp
+            <input type="radio" name="A1" value="4"> 4&nbsp&nbsp
+            <input type="radio" name="A1" value="5"> 5&nbsp&nbsp
+            <input type="radio" name="A1" value="6"> 6&nbsp&nbsp
+            <input type="radio" name="A1" value="7"> 7&nbsp&nbsp
+            <input type="radio" name="A1" value="8"> 8&nbsp&nbsp
+            <input type="radio" name="A1" value="9"> 9&nbsp&nbsp
+            <input type="radio" name="A1" value="10"> 10&nbsp&nbsp
+            <br><br>
+            <p><h3>Ａ８套裝旅遊產品</h3><br><br>
+                旅遊地點天數：歐洲英國10~15天<br><br>
+                旅館星級：3星<br><br>
+                航班飛行形式：直飛<br><br>
+                景點規劃：主打以景點參觀+遊樂園為主<br><br>
+                餐飲類型：會品嘗到中式料理＋西式料理為主</p>
+            <input type="radio" name="A1" value="1" checked> 1&nbsp&nbsp
+            <input type="radio" name="A1" value="2"> 2&nbsp&nbsp
+            <input type="radio" name="A1" value="3"> 3&nbsp&nbsp
+            <input type="radio" name="A1" value="4"> 4&nbsp&nbsp
+            <input type="radio" name="A1" value="5"> 5&nbsp&nbsp
+            <input type="radio" name="A1" value="6"> 6&nbsp&nbsp
+            <input type="radio" name="A1" value="7"> 7&nbsp&nbsp
+            <input type="radio" name="A1" value="8"> 8&nbsp&nbsp
+            <input type="radio" name="A1" value="9"> 9&nbsp&nbsp
+            <input type="radio" name="A1" value="10"> 10&nbsp&nbsp
+            <br><br>
+            <p><h3>Ａ９套裝旅遊產品</h3><br><br>
+                旅遊地點天數：歐洲英國15天以上<br><br>
+                旅館星級：3星<br><br>
+                航班飛行形式：直飛<br><br>
+                景點規劃：主打以景點參觀+購物行程為主<br><br>
+                餐飲類型：會品嘗到中式料理＋特色小吃為主</p>
+            <input type="radio" name="A1" value="1" checked> 1&nbsp&nbsp
+            <input type="radio" name="A1" value="2"> 2&nbsp&nbsp
+            <input type="radio" name="A1" value="3"> 3&nbsp&nbsp
+            <input type="radio" name="A1" value="4"> 4&nbsp&nbsp
+            <input type="radio" name="A1" value="5"> 5&nbsp&nbsp
+            <input type="radio" name="A1" value="6"> 6&nbsp&nbsp
+            <input type="radio" name="A1" value="7"> 7&nbsp&nbsp
+            <input type="radio" name="A1" value="8"> 8&nbsp&nbsp
+            <input type="radio" name="A1" value="9"> 9&nbsp&nbsp
+            <input type="radio" name="A1" value="10"> 10&nbsp&nbsp
+            <br><br>
+            <p><h3>Ａ１０套裝旅遊產品</h3><br><br>
+                旅遊地點天數：歐洲英國15天以上<br><br>
+                旅館星級：4星<br><br>
+                航班飛行形式：轉機<br><br>
+                景點規劃：主打以遊樂園+購物行程為主<br><br>
+                餐飲類型：會品嘗到中式料理＋西式料理為主</p>
+            <input type="radio" name="A1" value="1" checked> 1&nbsp&nbsp
+            <input type="radio" name="A1" value="2"> 2&nbsp&nbsp
+            <input type="radio" name="A1" value="3"> 3&nbsp&nbsp
+            <input type="radio" name="A1" value="4"> 4&nbsp&nbsp
+            <input type="radio" name="A1" value="5"> 5&nbsp&nbsp
+            <input type="radio" name="A1" value="6"> 6&nbsp&nbsp
+            <input type="radio" name="A1" value="7"> 7&nbsp&nbsp
+            <input type="radio" name="A1" value="8"> 8&nbsp&nbsp
+            <input type="radio" name="A1" value="9"> 9&nbsp&nbsp
+            <input type="radio" name="A1" value="10"> 10&nbsp&nbsp
+            <br><br>
+            <p><h3>Ａ１１套裝旅遊產品</h3><br><br>
+                旅遊地點天數：歐洲英國15天以上<br><br>
+                旅館星級：5星<br><br>
+                航班飛行形式：直飛<br><br>
+                景點規劃：主打以景點參觀+遊樂園為主<br><br>
+                餐飲類型：會品嘗到中式料理＋西式料理為主</p>
+            <input type="radio" name="A1" value="1" checked> 1&nbsp&nbsp
+            <input type="radio" name="A1" value="2"> 2&nbsp&nbsp
+            <input type="radio" name="A1" value="3"> 3&nbsp&nbsp
+            <input type="radio" name="A1" value="4"> 4&nbsp&nbsp
+            <input type="radio" name="A1" value="5"> 5&nbsp&nbsp
+            <input type="radio" name="A1" value="6"> 6&nbsp&nbsp
+            <input type="radio" name="A1" value="7"> 7&nbsp&nbsp
+            <input type="radio" name="A1" value="8"> 8&nbsp&nbsp
+            <input type="radio" name="A1" value="9"> 9&nbsp&nbsp
+            <input type="radio" name="A1" value="10"> 10&nbsp&nbsp
+            <br><br>
+            <p><h3>Ａ１２套裝旅遊產品</h3><br><br>
+                旅遊地點天數：歐洲英國15天以上<br><br>
+                旅館星級：3星<br><br>
+                航班飛行形式：轉機<br><br>
+                景點規劃：主打以景點參觀+購物行程為主<br><br>
+                餐飲類型：會品嘗到西式料理＋特色小吃為主</p>
+            <input type="radio" name="A1" value="1" checked> 1&nbsp&nbsp
+            <input type="radio" name="A1" value="2"> 2&nbsp&nbsp
+            <input type="radio" name="A1" value="3"> 3&nbsp&nbsp
+            <input type="radio" name="A1" value="4"> 4&nbsp&nbsp
+            <input type="radio" name="A1" value="5"> 5&nbsp&nbsp
+            <input type="radio" name="A1" value="6"> 6&nbsp&nbsp
+            <input type="radio" name="A1" value="7"> 7&nbsp&nbsp
+            <input type="radio" name="A1" value="8"> 8&nbsp&nbsp
+            <input type="radio" name="A1" value="9"> 9&nbsp&nbsp
+            <input type="radio" name="A1" value="10"> 10&nbsp&nbsp
+            <br><br>
+            <p><h3>Ａ１３套裝旅遊產品</h3><br><br>
+                旅遊地點天數：歐洲英國6~10天<br><br>
+                旅館星級：3星<br><br>
+                航班飛行形式：轉機<br><br>
+                景點規劃：主打以景點參觀+遊樂園為主<br><br>
+                餐飲類型：會品嘗到西式料理＋特色小吃為主</p>
+            <input type="radio" name="A1" value="1" checked> 1&nbsp&nbsp
+            <input type="radio" name="A1" value="2"> 2&nbsp&nbsp
+            <input type="radio" name="A1" value="3"> 3&nbsp&nbsp
+            <input type="radio" name="A1" value="4"> 4&nbsp&nbsp
+            <input type="radio" name="A1" value="5"> 5&nbsp&nbsp
+            <input type="radio" name="A1" value="6"> 6&nbsp&nbsp
+            <input type="radio" name="A1" value="7"> 7&nbsp&nbsp
+            <input type="radio" name="A1" value="8"> 8&nbsp&nbsp
+            <input type="radio" name="A1" value="9"> 9&nbsp&nbsp
+            <input type="radio" name="A1" value="10"> 10&nbsp&nbsp
+            <br><br>
+            <p><h3>Ａ１４套裝旅遊產品</h3><br><br>
+                旅遊地點天數：歐洲英國6~10天<br><br>
+                旅館星級：4星<br><br>
+                航班飛行形式：直飛<br><br>
+                景點規劃：主打以景點參觀+購物行程為主<br><br>
+                餐飲類型：會品嘗到中式料理＋西式料理為主</p>
+            <input type="radio" name="A1" value="1" checked> 1&nbsp&nbsp
+            <input type="radio" name="A1" value="2"> 2&nbsp&nbsp
+            <input type="radio" name="A1" value="3"> 3&nbsp&nbsp
+            <input type="radio" name="A1" value="4"> 4&nbsp&nbsp
+            <input type="radio" name="A1" value="5"> 5&nbsp&nbsp
+            <input type="radio" name="A1" value="6"> 6&nbsp&nbsp
+            <input type="radio" name="A1" value="7"> 7&nbsp&nbsp
+            <input type="radio" name="A1" value="8"> 8&nbsp&nbsp
+            <input type="radio" name="A1" value="9"> 9&nbsp&nbsp
+            <input type="radio" name="A1" value="10"> 10&nbsp&nbsp
+            <br><br>
+            <p><h3>Ａ１５套裝旅遊產品</h3><br><br>
+                旅遊地點天數：歐洲英國6~10天<br><br>
+                旅館星級：5星<br><br>
+                航班飛行形式：轉機<br><br>
+                景點規劃：主打以景點參觀+購物行程為主<br><br>
+                餐飲類型：會品嘗到中式料理＋西式料理為主</p>
+            <input type="radio" name="A1" value="1" checked> 1&nbsp&nbsp
+            <input type="radio" name="A1" value="2"> 2&nbsp&nbsp
+            <input type="radio" name="A1" value="3"> 3&nbsp&nbsp
+            <input type="radio" name="A1" value="4"> 4&nbsp&nbsp
+            <input type="radio" name="A1" value="5"> 5&nbsp&nbsp
+            <input type="radio" name="A1" value="6"> 6&nbsp&nbsp
+            <input type="radio" name="A1" value="7"> 7&nbsp&nbsp
+            <input type="radio" name="A1" value="8"> 8&nbsp&nbsp
+            <input type="radio" name="A1" value="9"> 9&nbsp&nbsp
+            <input type="radio" name="A1" value="10"> 10&nbsp&nbsp
+            <br><br>
+            <p><h3>Ａ１６套裝旅遊產品</h3><br><br>
+                旅遊地點天數：歐洲英國6~10天<br><br>
+                旅館星級：3星<br><br>
+                航班飛行形式：直飛<br><br>
+                景點規劃：主打以遊樂園+購物行程為主<br><br>
+                餐飲類型：會品嘗到中式料理＋特色小吃為主</p>
+            <input type="radio" name="A1" value="1" checked> 1&nbsp&nbsp
+            <input type="radio" name="A1" value="2"> 2&nbsp&nbsp
+            <input type="radio" name="A1" value="3"> 3&nbsp&nbsp
+            <input type="radio" name="A1" value="4"> 4&nbsp&nbsp
+            <input type="radio" name="A1" value="5"> 5&nbsp&nbsp
+            <input type="radio" name="A1" value="6"> 6&nbsp&nbsp
+            <input type="radio" name="A1" value="7"> 7&nbsp&nbsp
+            <input type="radio" name="A1" value="8"> 8&nbsp&nbsp
+            <input type="radio" name="A1" value="9"> 9&nbsp&nbsp
+            <input type="radio" name="A1" value="10"> 10&nbsp&nbsp
+            <br><br>
+
+
+
+
+
+
+
+
+
+
+            <input type="submit" >
+        </form>
+        </td></tr>
+
+</body>
+</html>
